@@ -1,16 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function front() {
+function FrontPage() {
   return (
     <React.Fragment>
       <h1>
-        <Link className="sign-anchor" to="/sign_up">
-          Sign up
-        </Link>
+        <Link to="/index">HELLO</Link>
       </h1>
     </React.Fragment>
   );
 }
 
-export default front;
+export default FrontPage;
